@@ -6,7 +6,7 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
-func router() *echo.Echo {
+func Router() *echo.Echo {
 	e := echo.New()
 
 	e.POST("/tasks", handlers.CreateTask)
