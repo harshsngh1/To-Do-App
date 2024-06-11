@@ -80,3 +80,18 @@ While the current implementation uses in-memory maps for storing data, the desig
 To run the unit tests, use the following command:
 
 go test ./tests
+
+
+## Running via Docker
+
+To run the application using Docker, execute the following commands:
+
+1. Build the Docker image:
+
+docker build -t todo-app .
+
+2. Run the Docker container:
+
+docker run -d -p 8080:8080 --name todo-app todo-app
+
+The application will start inside a Docker container and be accessible at http://localhost:8080.
