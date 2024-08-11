@@ -51,7 +51,7 @@ todo-app/
 
 1. Clone the repository:
 
-https://github.com/harshsngh1/Inai_TODO_Application
+https://github.com/harshsngh1/To-Do-App
 
 
 2. Navigate to the project directory:
